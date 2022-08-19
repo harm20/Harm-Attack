@@ -1,6 +1,5 @@
 import socket
-Name = ("Welcome in Harm Attack")
-print(Name.tittle())
+print("Welcome In Harm Attack")
 ip = input("Enter ip Website : ")
 while True :
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
